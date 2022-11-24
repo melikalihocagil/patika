@@ -1,8 +1,16 @@
 body {
     list-style-position: inside;
     text-align: center;
+    background-color: black;
+    color: aliceblue;
 }
 h1, h2, h3, h4, h5 {
-    color: aquamarine;
+    color: orangered;
     text-transform: uppercase;
+}
+a {
+    color: orangered;
+}
+section, nav, article {
+    text-align: center;
 }
