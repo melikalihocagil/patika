@@ -1,7 +1,7 @@
 body {
     list-style-position: inside;
     text-align: center;
-    background-color: black;
+    background-color: rgb(27, 64, 109);
     color: aliceblue;
 }
 h1, h2, h3, h4, h5 {
@@ -10,7 +10,15 @@ h1, h2, h3, h4, h5 {
 }
 a {
     color: orangered;
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
 }
 section, nav, article {
     text-align: center;
 }
+
+li {
+    float: left;
+}  
+
