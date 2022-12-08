@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5 {
     color: orangered;
     text-transform: uppercase;
 }
-a {
+a.ex1 {
     color: orangered;
     display: block;
     padding: 8px;
@@ -16,9 +16,13 @@ a {
 }
 section, nav, article {
     text-align: center;
+    list-style-position: inside;
 }
 
 li {
-    float: left;
+    /* float: right; */
 }  
+article {
+    margin-top: 45px;
+}
 
